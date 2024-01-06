@@ -1,4 +1,5 @@
 export function Todo({ todo, handleCheckBox, isComplete }) {
+  console.log(todo)
   return (
     <div>
       <input
@@ -6,7 +7,7 @@ export function Todo({ todo, handleCheckBox, isComplete }) {
         checked={todo.completed}
         onChange={() => handleCheckBox(todo, isComplete)}
       />
-      {todo.complete === true ? <s>todo.title</s> : todo.title}
+      {todo.completed === true ? <s>{todo.title}</s> : todo.title}
     </div>
   );
 }
