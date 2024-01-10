@@ -14,6 +14,7 @@ function App() {
     width: "300px",
     height: "200px",
     background: color,
+    border: "1px solid black"
   };
 
   const randomColor = () => {
