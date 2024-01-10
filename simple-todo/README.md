@@ -1,6 +1,8 @@
 # Simple Todo Challenge
 ---
 
+This was a problem I had to do for a Junior Full Stack Software Engineer interview. I was encouraged to explain what I was doing and use Google whenever I got stuck. I was given 25 minutes.
+
 ### Live Preview
 <a href="https://simple-todo-omega.vercel.app/">Simple Todo</a>
 
