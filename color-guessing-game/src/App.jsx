@@ -11,7 +11,7 @@ function App() {
   }, []);
 
   const backgroundColor = {
-    width: "300px",
+    width: "350px",
     height: "200px",
     background: color,
     border: "1px solid black"
@@ -45,7 +45,7 @@ function App() {
       <div style={backgroundColor}></div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         {answers.map((answer) => (
-          <button onClick={() => handleClickedAnswer(answer)} key={answer}>
+          <button style={{width: "95px"}} onClick={() => handleClickedAnswer(answer)} key={answer}>
             {answer.toUpperCase()}
           </button>
         ))}
